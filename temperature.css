@@ -1,0 +1,40 @@
+.temperature-container {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.temperature-container.warm {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.temperature-container.chill {
+  background-color: #66ccff;
+  color: #333;
+}
+
+.temperature-container.hot {
+  background-color: #ff6666;
+  color: #fff;
+}
+
+.temperature-container.cold {
+  background-color: rgba(51, 153, 255, 0.594);
+  color: #fff;
+}
+
+.buttons-container button {
+  margin-right: 10px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.buttons-container button:hover {
+  background-color: #eee;
+}
